@@ -1,0 +1,72 @@
+/* Estilos personalizados podem ser adicionados aqui */
+
+
+#carousel img {
+	margin-top: -500px;
+	max-height:100vh;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+
+.my-hr{
+	width: 30%; 
+	border-width: .350em;
+	margin: 25px 0px 50px 0px;
+}
+#navbar{
+	border-size: border-box;
+	max-width: 99.8vw;
+
+}
+#carousel, *{
+	max-width: 99.8vw;
+
+}
+
+section{
+	padding: 100px 0px 100px 0px;
+}
+.card-text{
+	padding: 10px 5px;
+}
+#carousel{
+	padding: 0px;
+}
+@media screen and (max-width: 1020px) {
+	.stick-top {
+		position: relative;	
+	}
+	#carousel{
+		min-height: auto;
+		max-height: auto;
+
+
+	}
+	.carousel-caption{
+		left: 0;
+		bottom: 0px;
+		width: 100vw;
+
+	}
+	.carousel-caption h1 {
+		font-size: 1.1rem;
+	}
+	.carousel-caption p{
+		display: hidden;
+		font-size: 1rem;
+	}
+
+
+}
+#wpp-btn-fixed{
+	font-size:1.2em; position: fixed; z-index: 2000; bottom: 15px; right: 15px; border-radius: 50%;
+
+}
+.carousel-caption {
+	background-color: rgba(0,0,0,.7);
+}
+img{
+	width: 100%;
+}
